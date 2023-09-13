@@ -1,16 +1,12 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 pragma solidity ^0.8.4;
 
-import "@cryptoalgebra/core/contracts/interfaces/plugin/IAlgebraPlugin.sol";
+import '@cryptoalgebra/core/contracts/interfaces/plugin/IAlgebraPlugin.sol';
 
 abstract contract AlgebraPlugin is IAlgebraPlugin {
     /// @inheritdoc IAlgebraPlugin
-    function afterInitialize(
-        address,
-        uint160,
-        int24
-    ) external virtual override returns (bytes4) {
-        revert("Not implemented");
+    function afterInitialize(address, uint160, int24) external virtual override returns (bytes4) {
+        revert('Not implemented');
     }
 
     /// @inheritdoc IAlgebraPlugin
@@ -22,7 +18,7 @@ abstract contract AlgebraPlugin is IAlgebraPlugin {
         int128,
         bytes calldata
     ) external virtual returns (bytes4) {
-        revert("Not implemented");
+        revert('Not implemented');
     }
 
     /// @inheritdoc IAlgebraPlugin
@@ -36,7 +32,7 @@ abstract contract AlgebraPlugin is IAlgebraPlugin {
         uint256,
         bytes calldata
     ) external virtual returns (bytes4) {
-        revert("Not implemented");
+        revert('Not implemented');
     }
 
     /// @inheritdoc IAlgebraPlugin
@@ -49,7 +45,7 @@ abstract contract AlgebraPlugin is IAlgebraPlugin {
         bool,
         bytes calldata
     ) external virtual returns (bytes4) {
-        revert("Not implemented");
+        revert('Not implemented');
     }
 
     /// @inheritdoc IAlgebraPlugin
@@ -63,18 +59,12 @@ abstract contract AlgebraPlugin is IAlgebraPlugin {
         int256,
         bytes calldata
     ) external virtual returns (bytes4) {
-        revert("Not implemented");
+        revert('Not implemented');
     }
 
     /// @inheritdoc IAlgebraPlugin
-    function beforeFlash(
-        address,
-        address,
-        uint256,
-        uint256,
-        bytes calldata
-    ) external virtual returns (bytes4) {
-        revert("Not implemented");
+    function beforeFlash(address, address, uint256, uint256, bytes calldata) external virtual returns (bytes4) {
+        revert('Not implemented');
     }
 
     /// @inheritdoc IAlgebraPlugin
@@ -87,6 +77,6 @@ abstract contract AlgebraPlugin is IAlgebraPlugin {
         uint256,
         bytes calldata
     ) external virtual returns (bytes4) {
-        revert("Not implemented");
+        revert('Not implemented');
     }
 }
