@@ -1,0 +1,4 @@
+[submodule "Algebra"]
+	path = Algebra
+	url = https://github.com/cryptoalgebra/Algebra
+	branch = dev
