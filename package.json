@@ -4,6 +4,7 @@
   "description": "Template for Algebra Integral AMM plugins",
   "scripts": {
     "test": "hardhat test",
+    "compile": "hardhat compile",
     "solhint": "solhint ./contracts/**/*.sol",
     "lint": "eslint .",
     "prettier:contracts": "prettier contracts/**/*.sol -w",

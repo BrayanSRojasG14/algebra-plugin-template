@@ -5,11 +5,13 @@ import { config } from 'dotenv';
 
 const { MNEMONIC, INFURA_ID_PROJECT } = config().parsed || {};
 
+const EVM_VERSION = 'paris';
+
 const hardhatConfig: HardhatUserConfig = {
   solidity: {
     version: '0.8.20',
     settings: {
-      evmVersion: 'paris',
+      evmVersion: EVM_VERSION,
       optimizer: {
         enabled: true,
         runs: 1_000_000,
@@ -22,7 +24,7 @@ const hardhatConfig: HardhatUserConfig = {
   networks: {
     hardhat: {
       allowUnlimitedContractSize: true,
-      hardfork: 'paris',
+      hardfork: EVM_VERSION,
     },
     localGeth: {
       url: `http://127.0.0.1:8545`,
