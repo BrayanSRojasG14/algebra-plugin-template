@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 pragma solidity ^0.8.4;
 
-import {IAlgebraPool} from '@cryptoalgebra/core/contracts/interfaces/IAlgebraPool.sol';
+import {IAlgebraPool} from '@cryptoalgebra/integral-core/contracts/interfaces/IAlgebraPool.sol';
 import {PluginConfig} from '../types/PluginConfig.sol';
 
 /// @title Contains logic and constants for easy interacting with the Algebra Integral pool

@@ -2,7 +2,7 @@
 pragma solidity ^0.8.4;
 
 import {AlgebraPlugin, IAlgebraPlugin} from './base/AlgebraPlugin.sol';
-import {IAlgebraPool} from '@cryptoalgebra/core/contracts/interfaces/IAlgebraPool.sol';
+import {IAlgebraPool} from '@cryptoalgebra/integral-core/contracts/interfaces/IAlgebraPool.sol';
 import {PoolInteraction} from './libraries/PoolInteraction.sol';
 import {PluginConfig, Plugins} from './types/PluginConfig.sol';
 

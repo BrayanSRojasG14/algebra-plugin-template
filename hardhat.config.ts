@@ -1,4 +1,5 @@
 import { HardhatUserConfig } from 'hardhat/config';
+import { HardhatNetworkUserConfig } from 'hardhat/types';
 import '@nomicfoundation/hardhat-toolbox';
 import 'hardhat-contract-sizer';
 import { config } from 'dotenv';
@@ -24,8 +25,7 @@ const hardhatConfig: HardhatUserConfig = {
   networks: {
     hardhat: {
       allowUnlimitedContractSize: true,
-      hardfork: EVM_VERSION,
-    },
+    } as HardhatNetworkUserConfig,
     localGeth: {
       url: `http://127.0.0.1:8545`,
       chainId: 1337,

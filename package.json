@@ -27,7 +27,6 @@
     "solhint-plugin-prettier": "^0.0.5"
   },
   "dependencies": {
-    "@cryptoalgebra/core": "file:Algebra/src/core",
-    "@cryptoalgebra/plugins": "file:Algebra/src/plugins"
+    "@cryptoalgebra/integral-core": "^0.2.0"
   }
 }

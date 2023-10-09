@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 pragma solidity ^0.8.4;
 
-import '@cryptoalgebra/core/contracts/interfaces/plugin/IAlgebraPlugin.sol';
+import '@cryptoalgebra/integral-core/contracts/interfaces/plugin/IAlgebraPlugin.sol';
 
 abstract contract AlgebraPlugin is IAlgebraPlugin {
     /// @inheritdoc IAlgebraPlugin
