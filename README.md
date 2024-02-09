@@ -8,17 +8,16 @@ The current documentation page is located at: <a href="https://cryptoalgebra.git
 
 A separate subsection is devoted to the development of plugins: <a href="https://cryptoalgebra.gitbook.io/algebra-integral">https://cryptoalgebra.gitbook.io/algebra-integral/plugins</a>
 
-## Installation
+## Version
 
-Clone this repository:
+Firts
+upgrade
 
-```shell
-git clone https://github.com/cryptoalgebra/algebra-plugin-template --recursive
-cd algebra-plugin-template
-```
+Second
+Modify
 
-Install dependencies:
+Third
+Fix
 
-```shell
-npm i
-```
+Four
+Delete
